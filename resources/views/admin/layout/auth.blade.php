@@ -39,7 +39,6 @@
         
     </body>
 
-<!-- Mirrored from coderthemes.com/adminto/layouts/auth-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 Aug 2023 13:41:04 GMT -->
 </html>
 
 
