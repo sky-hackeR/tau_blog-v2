@@ -57,18 +57,20 @@
                             <div class="mb-3 d-grid text-center">
                                 <button class="btn btn-primary" type="submit"> Log In </button>
                             </div>
+                                
+
+                            <div class="row mt-3">
+                                <div class="col-12 text-center">
+                                    <p> <a href="{{ url('/admin/password/reset') }}" class="text-muted ms-1"><i class="fa fa-lock me-1"></i>Forgot your password?</a></p>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+
                         </form>
 
                     </div> <!-- end card-body -->
                 </div>
                 <!-- end card -->
-
-                <div class="row mt-3">
-                    <div class="col-12 text-center">
-                        <p> <a href="{{ url('/admin/password/reset') }}" class="text-muted ms-1"><i class="fa fa-lock me-1"></i>Forgot your password?</a></p>
-                    </div> <!-- end col -->
-                </div>
-                <!-- end row -->
 
             </div> <!-- end col -->
         </div>
