@@ -6,7 +6,7 @@
     
 <head>
     <meta charset="utf-8" />
-    <title>Starter | Adminto - Responsive Admin Dashboard Template</title>
+    <title>Admin | {{ env('APP_NAME') }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Jolayemi Olugbenga David(sky-hackeR)" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -146,12 +146,6 @@
                             <div class="dropdown-divider"></div>
 
                             <!-- item-->
-                            <a href="auth-logout.html" class="dropdown-item notify-item">
-                                <i class="fe-log-out"></i>
-                                <span>Settings</span>
-                            </a>
-
-                            <!-- item-->
                             <a href="{{ url('/admin/logout') }}" class="dropdown-item notify-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 <i class="fe-log-out"></i>
                                 <span>Logout</span>
@@ -267,38 +261,44 @@
                             </a>
                         </li>
 
-                        <li class="menu-title mt-2">Apps</li>
+                        <li class="menu-title mt-2">Components</li>
 
                         <li>
                             <a href="apps-calendar.html">
                                 <i class="mdi mdi-calendar-blank-outline"></i>
-                                <span> Calendar </span>
+                                <span> Admin </span>
                             </a>
                         </li>
 
                         <li>
                             <a href="apps-chat.html">
-                                <i class="mdi mdi-forum-outline"></i>
-                                <span> Chat </span>
+                                <i class="mdi mdi-blogger"></i>
+                                <span> Blog Post </span>
                             </a>
                         </li>
 
                         <li>
                             <a href="apps-projects.html">
                                 <i class="mdi mdi-briefcase-variant-outline"></i>
-                                    <span> Projects </span>
+                                    <span> Category </span>
                             </a>    
                         </li>
-
-                        <li class="menu-title mt-2">Components</li>
+                    
+                        <!-- <li class="menu-title mt-2">Components</li> -->
 
                         <li>
                             <a href="widgets.html">
-                                <i class="mdi mdi-gift-outline"></i>
-                                <span> Widgets </span>
+                                <i class="mdi mdi-forum-outline"></i>
+                                <span> Comment </span>
                             </a>
                         </li>
-
+                                
+                        <li>
+                            <a href="widgets.html">
+                                <i class="mdi mdi-book-alert-outline"></i>
+                                <span> Newsletter </span>
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
@@ -328,9 +328,6 @@
                 </div> <!-- container -->
 
             </div> <!-- content -->
-            <button onclick="topFunction()" class="btn btn-muted btn-icon float-end" id="back-to-top">
-                <i class="mdi mdi-arrow-up"></i>
-            </button>
 
             <!-- Footer Start -->
             <footer class="footer">
@@ -344,14 +341,16 @@
                 </div>
             </footer>
             <!-- end Footer -->
-
+            
         </div>
 
         <!-- ============================================================== -->
         <!-- End Page content -->
         <!-- ============================================================== -->
 
-
+        <button onclick="topFunction()" class="btn btn-muted btn-icon float-end" id="back-to-top">
+            <i class="mdi mdi-arrow-up"></i>
+        </button>
     </div>
     <!-- END wrapper -->
 

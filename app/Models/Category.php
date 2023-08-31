@@ -15,4 +15,10 @@ class Category extends Model
         'title',
         'description',
     ];
+
+    public function blogpost()
+    {
+        return $this->hasMany(BlogPost::class, 'blog_post_id');
+    }
+
 }

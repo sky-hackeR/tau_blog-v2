@@ -17,4 +17,5 @@ class Comment extends Model
         'email',
         'blog_post_id',
     ];
+    
 }

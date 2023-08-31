@@ -53,7 +53,7 @@
 		    <div class="site-brand text-center">
 				<div class="container">
 				    <a href="#">
-						<h2>TAUBlog</h2>
+						<h2>{{ env('APP_NAME') }}</h2>
 					</a>
                     <p class="site-description">A Captivating Personal Blog Theme</p>
 				</div>

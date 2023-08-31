@@ -10,7 +10,7 @@
                     <a href="{{ env('WEBSITE_URL')  }}">
                         <img src="{{asset('assets/images/logo-dark.png')}}" alt="" height="22" class="mx-auto">
                     </a>
-                    <p class="text-muted mt-2 mb-4">{{ env('APP_NAME') }} Admin Dashboard</p>
+                    <p class="text-muted mt-2 mb-4">{{ env('APP_NAME') }}</p>
 
                 </div>
                 <div class="card">
